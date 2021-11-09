@@ -10,7 +10,7 @@ export const Service = () => {
                 <h1 className="text-xl md:text-3xl font-extrabold text-center pt-3" style={{ fontFamily: "cursive", color: "#293651" }}>{LANGUAGES.home.serviceProvide}</h1>
                 <div className="site__line mx-auto border-solid my-2 md:my-4 w-24" style={{ background: '#00A78E', height: '2px' }}></div>
                 <div className="container mx-auto px-4 md:px-0">
-                    <div className="grid gap-4 grid-cols-3 md:grid-cols-3 sm:grid-cols-2">
+                    <div className="grid gap-4 grid-cols-1 md:grid-cols-3 sm:grid-cols-2">
                         {SERVICES.map((i: any) => (
                             <div className="service__item mt-7 md:mt-14 shadow-2xl rounded-2xl p-4" style={{ borderWidth: '1px' }}>
                                 <div style={{ background: "#00A78E" }} className="service__item-blogImg w-16 h-16 flex rounded-t-2xl rounded-bl-2xl items-center justify-center">

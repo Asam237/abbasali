@@ -9,6 +9,8 @@ export const LANGUAGES = {
         service: "Service",
         whyHireMe: "Why Hire Me?",
         aboutBody: " I am passionate and skilled with web development. I accompany businessmen, organizations and clients, from the start to the materialization of the project, and finally the deployment of their projcets. Beyond that, I maintain my customers projects and ensure absolute client satisfaction",
-        serviceProvide: "SERVICES I Provide"
+        serviceProvide: "SERVICES I Provide",
+        hireMeTitle: "Have any project in mind?",
+        hireMeSubTitle: "Hire me, so we could take your awesome project to life. "
     }
 }
