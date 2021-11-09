@@ -19,7 +19,7 @@ export const Header = () => {
                             {HEADER_NAV.map((item: any) => (
                                 (
                                     <li className="hidden md:flex ml-10">
-                                        <a style={{ color: "#293651" }} className="font-semibold" href={item.link}>{item.name}</a>
+                                        <a style={{ color: "#293651" }} className="font-medium" href={item.link}>{item.name}</a>
                                     </li>
                                 )
                             ))}
