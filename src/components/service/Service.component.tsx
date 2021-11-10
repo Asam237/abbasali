@@ -4,7 +4,7 @@ import { LANGUAGES } from "../../constants/languages";
 
 export const Service = () => {
     return (
-        <div className="site__service pt-10 md:pt-20">
+        <div id="service" className="site__service pt-10 md:pt-20">
             <div className="flex flex-col px-4 md:px-20 py-10 md:py-20">
                 <h4 className="site__servie-title font-bold text-xl text-center" style={{ fontFamily: "cursive", color: "#00A78E" }}>{LANGUAGES.home.service}</h4>
                 <h1 className="text-xl md:text-3xl font-extrabold text-center pt-3" style={{ fontFamily: "cursive", color: "#293651" }}>{LANGUAGES.home.serviceProvide}</h1>

@@ -5,7 +5,7 @@ import { Progress } from "../progress/Progress.component";
 
 export const About = () => {
     return (
-        <div className="site__about">
+        <div id="about" className="site__about">
             <div className="flex flex-col px-4 md:px-20 pt-7 md:pt-14">
                 <h1 className="site__about-title text-2xl md:text-5xl text-center font-medium mb-6 md:mb-12" style={{ fontFamily: "cursive", color: "#00A78E" }}>{LANGUAGES.home.about}</h1>
                 <div className="container mx-auto justify-between flex flex-col md:flex-row">

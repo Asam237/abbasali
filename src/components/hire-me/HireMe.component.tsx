@@ -3,7 +3,7 @@ import { LANGUAGES } from "../../constants/languages";
 
 export const HireMe = () => {
     return (
-        <div className="site__hireme py-7 md:py-14">
+        <div id="hireMe" className="site__hireme py-7 md:py-14">
             <div className="flex flex-col px-4 md:px-20 md:flex-row">
                 <div style={{ background: '#00A78E' }} className="container rounded-xl mx-auto p-4 md:p-20">
                     <div className="flex flex-col md:flex-row">

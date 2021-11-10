@@ -1,18 +1,22 @@
 export const HEADER_NAV = [
     {
         name: "Home",
-        link: "#"
+        link: "#",
+        id: "#"
     },
     {
         name: "About",
-        link: "#"
+        link: "#",
+        id: "#about"
     },
     {
         name: "Services",
-        link: "#"
+        link: "#",
+        id: "#service"
     },
     {
         name: "Contact",
-        link: "#"
+        link: "#",
+        id: "#contact"
     },
 ]
