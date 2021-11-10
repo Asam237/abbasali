@@ -18,9 +18,18 @@ export const Footer = () => {
                                 </div>
                             ))}
                         </div>
+                        <div className="site__footer-adress">
+                            <p className="font-normal text-base text-center py-4 leading-7" style={styles}>{LANGUAGES.home.mail}</p>
+                            <p className="font-normal text-base text-center leading-7" style={styles}>{LANGUAGES.home.number}</p>
+                            <p className="font-normal text-base text-center py-4 leading-7" style={styles}>{LANGUAGES.home.city}</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     )
+}
+
+const styles = {
+    color: "#293651"
 }

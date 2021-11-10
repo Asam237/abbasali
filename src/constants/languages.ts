@@ -11,6 +11,9 @@ export const LANGUAGES = {
         aboutBody: " I am passionate and skilled with web development. I accompany businessmen, organizations and clients, from the start to the materialization of the project, and finally the deployment of their projcets. Beyond that, I maintain my customers projects and ensure absolute client satisfaction",
         serviceProvide: "SERVICES I Provide",
         hireMeTitle: "Have any project in mind?",
-        hireMeSubTitle: "Hire me, so we could take your awesome project to life. "
+        hireMeSubTitle: "Hire me, so we could take your awesome project to life. ",
+        mail: "abbasalimokolo@gmail.com",
+        number: "(+237) 691846922 / 654172966",
+        city: "Maroua, Cameroon."
     }
 }
