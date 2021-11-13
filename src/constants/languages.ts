@@ -2,8 +2,8 @@ export const LANGUAGES = {
     home: {
         title: "Abba Sali",
         intro: "I am Abba Sali",
-        subTitle: "I build things for the web.",
-        content: "I'm a web developer based in Douala, Cameroon. specializing in building and designing exceptional websites, applications and everything in between. ",
+        subTitle: "I build things for the web and mobile.",
+        content: "I'm a web developer based in Maroua, Cameroon. specializing in building and designing exceptional websites and mobile, applications and everything in between. ",
         hireMe: "Hire Me",
         about: "About",
         service: "Service",
