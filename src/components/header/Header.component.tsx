@@ -5,7 +5,7 @@ import menu from "../../assets/img/menu.png"
 
 export const Header = () => {
     return (
-        <header className="site__header sticky top-0 z-50 bg-white shadow-sm">
+        <header className="site__header sticky top-0 z-50 bg-white shadow-md">
             <div className="container mx-auto">
                 <div className="flex justify-between items-center py-4 px-4 md:px-20">
                     <div className="site__header-title">
