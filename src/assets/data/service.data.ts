@@ -4,8 +4,8 @@ import graduation from "../img/graduation.png"
 export const SERVICES = [
     {
         image: balise,
-        title: "Web Development/ Design",
-        subTitle: "As a web developer, I build high quality web applications through the use of the latest technologies. "
+        title: "Web/Mobile Development",
+        subTitle: "As a web and mobile developer, I build high quality applications through the use of the latest technologies. "
     },
     {
         image: ui,

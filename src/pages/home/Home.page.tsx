@@ -14,7 +14,7 @@ export const Home = () => {
       duration: 300,
       disable: "mobile",
     });
-    document.title = "Abba SAli";
+    document.title = "Abba Sali Aboubakar Mamate";
   }, []);
 
   return (
