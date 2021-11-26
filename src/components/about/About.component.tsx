@@ -9,7 +9,11 @@ export const About = () => {
       <div className="flex flex-col px-4 md:px-20 pt-10 md:pt-28">
         <h1
           className="site__about-title text-2xl md:text-5xl text-center font-medium mb-3 md:mb-12"
-          style={{ fontFamily: "cursive", color: "#00A78E" }}
+          style={{
+            fontFamily: "'Poppins', sans-serif",
+            color: "#00A78E",
+            fontWeight: 800,
+          }}
         >
           {LANGUAGES.home.about}
         </h1>
@@ -30,7 +34,7 @@ export const About = () => {
           >
             <h2
               className="text-3xl md:text-4xl text-center md:text-left font-bold md:pt-10"
-              style={{ fontFamily: "cursive", color: "#293651" }}
+              style={{ fontFamily: "'Poppins', sans-serif", color: "#293651" }}
             >
               {LANGUAGES.home.whyHireMe}
             </h2>
@@ -56,4 +60,6 @@ export const About = () => {
 };
 const styles = {
   color: "#293651",
+  fontFamily: "'Poppins', sans-serif",
+  fontWeight: 400,
 };

@@ -12,8 +12,10 @@ export const Header = () => {
             <h1
               className="text-2xl md:text-3xl"
               style={{
-                fontFamily: "'Dancing Script', cursive",
+                fontFamily: "'Poppins', sans-serif",
+                // fontFamily: "'Dancing Script', cursive",
                 color: "#00A78E",
+                fontWeight: "800",
               }}
             >
               {LANGUAGES.home.title}
@@ -29,7 +31,7 @@ export const Header = () => {
                   <a
                     style={{
                       color: "#293651",
-                      fontFamily: "'Mukta', sans-serif",
+                      fontFamily: "'Poppins', sans-serif",
                     }}
                     className="font-medium hover:underline"
                     href={item.id}

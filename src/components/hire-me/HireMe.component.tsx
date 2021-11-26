@@ -13,7 +13,7 @@ export const HireMe = () => {
             <div className="site__hireme-text w-full md:w-1/2 flex flex-col md:justify-center">
               <h4
                 className="site__servie-title font-bold text-2xl md:text-3xl text-center md:text-left"
-                style={{ fontFamily: "cursive", color: "#fff" }}
+                style={{ fontFamily: "'Poppins', sans-serif", color: "#fff" }}
               >
                 {LANGUAGES.home.hireMeTitle}
               </h4>
@@ -28,7 +28,10 @@ export const HireMe = () => {
             <div className="site__hireme-btn pt-6 md:pt-0 w-full md:w-1/2 flex justify-center md:justify-end items-center">
               <button
                 className="px-4 h-12 bg-white font-semibold py-2 rounded-md"
-                style={{ color: "#00A78E" }}
+                style={{
+                  color: "#00A78E",
+                  fontFamily: "'Poppins', sans-serif",
+                }}
               >
                 <a href="mailto:abbasalimokolo@gmail.com">
                   {LANGUAGES.home.hireMe}
